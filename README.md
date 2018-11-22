@@ -87,15 +87,7 @@ bash ssr.sh
 
 ![image.png](http://upload-images.jianshu.io/upload_images/6245842-a0f12abc144bf3ac.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 为了保密，我把IP，SS和SSR链接P掉了。毕竟我的服务器只是一个很小的服务器，不敢拿出来共享。在此说一声抱歉。
-# 三.配置加速
-这一步其实可以不要。但是为了从此之后不再忧心与SSR服务器的重启（服务器重启后SSR服务会被关闭，需要重新手动启动）和SSR代理网络速度更快，推荐大家往下看。
-##### 安装谷歌BBR加速
-```terminal
-wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
-chmod +x bbr.sh
-./bbr.sh
-```
-把上述的代码依次执行一遍，执行完之后是这样的
+
 
 ![image.png](http://upload-images.jianshu.io/upload_images/6245842-efa9703df1b9363b.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 这事只需要按一下键盘上任意一个按键即可（按一下就行，不需要多按，等一下就会有反应了）
